@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>job_example</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\SanteDB.licenseheader" Link="SanteDB.licenseheader" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SanteDB.Core.Api" Version="2.0.32" />
+  </ItemGroup>
+
+</Project>
